@@ -94,10 +94,13 @@ These modifications significantly improve the model’s accuracy and effectivene
 
 ## Installation
 ```bash
+python3 --version
 git clone https://huggingface.co/briaai/RMBG-1.4
 cd RMBG-1.4/
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+python3 example_inference.py
 ```
+ 
 
 ## Usage
 
